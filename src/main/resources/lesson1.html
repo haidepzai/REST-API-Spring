@@ -1,0 +1,41 @@
+<HTML>
+<BODY>
+
+<form method="POST"
+      target="result"
+      action="http://localhost:8090/calculator">
+    <label>
+        <input type="text" name="value">
+    </label>
+    <input type="submit" value="SET VALUE">
+</form>
+<form method="POST"
+      target="result"
+      action="http://localhost:8090/calculator/add">
+    <label>
+        <input type="text" name="value">
+    </label>
+    <input type="submit" value="+">
+</form>
+<form method="POST"
+      target="result"
+      action="http://localhost:8090/calculator/subtract">
+    <label>
+        <input type="text" name="value">
+    </label>
+    <input type="submit" value="-">
+</form>
+<form method="GET"
+      target="result"
+      action="http://localhost:8090/calculator">
+    <input type="submit" value="=">
+</form>
+
+
+<IFRAME name="result" frameborder="0" width="640" height="480">
+
+
+</IFRAME>
+
+</BODY>
+</HTML>
