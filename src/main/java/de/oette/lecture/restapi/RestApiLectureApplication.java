@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(value = {
-		"de.oette.lecture.A04",
+		"de.oette.lecture.A05",
 		"de.oette.lecture.common"
 })
 public class RestApiLectureApplication {
